@@ -27,7 +27,7 @@ onNewCharacter(character: Character):void{
 
 onDelete(index:number){
   this.characters.splice(index,1);
-  console.log(index);
+  /* console.log(index); */
 }
 
 }
